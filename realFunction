@@ -1,0 +1,2 @@
+sol=dsolve('D3y+2*D2y-Dy-2*y=exp(x)','y(0)=1, Dy(0)=2, D2y(0)=0')
+ezplot(sol,[-1 10])
